@@ -1,6 +1,6 @@
 {
   "friendly_name": "Bambu Studio",
-  "image_src": "blob:https://nicoworzak.github.io/4d0a46b3-c687-4faa-8132-68f663b31283",
+  "image_src": "bamboo-studio.png",
   "description": "Linuxserver Bambu Studio imag",
   "cores": 2,
   "memory": 2768,
