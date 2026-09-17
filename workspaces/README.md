@@ -5,3 +5,6 @@ This directory is for storing all the files needed for your workspaces store, th
 * workspaces/Workspace Name
 * workspaces/Workspace Name/workspace.json
 * workspaces/Workspace Name/workspace-name.png
+
+Copied from repo:
+- https://github.com/DoubtfulTurnip/doubtfulturnip-kasm-registry
