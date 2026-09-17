@@ -1,0 +1,20 @@
+{
+  "friendly_name": "Bambu Studio",
+  "image_src": "blob:https://nicoworzak.github.io/4d0a46b3-c687-4faa-8132-68f663b31283",
+  "description": "Linuxserver Bambu Studio imag",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "3D-Printing"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64"
+  ],
+  "name": "linuxserver/bambustudio:latest"
+}
