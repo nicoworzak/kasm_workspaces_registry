@@ -1,0 +1,20 @@
+{
+  "description": "Epagneul is a tool to visualize and investigate Windows event logs.",
+  "docker_registry": "https://ghcr.io",
+  "image_src": "epagneul.png",
+  "run_config": {
+    "hostname": "kasm",
+    "privileged": true
+  },
+  "categories": ["Security"],
+  "friendly_name": "Epagneul",
+  "architecture": ["amd64"],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/doubtfulturnip/epagneul-kasm:1.19.0",
+      "uncompressed_size_mb": 5700,
+      "available_tags": ["1.19.0"]
+    }
+  ]
+}

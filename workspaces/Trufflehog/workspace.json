@@ -1,0 +1,16 @@
+{
+  "description": "A lightweight web interface to scan services for leaked secrets, credentials, and tokens using a prebuilt GHCR app image for faster workspace startup.",
+  "docker_registry": "https://ghcr.io",
+  "image_src": "trufflehog.png",
+  "categories": ["Security"],
+  "friendly_name": "TruffleHog Scanner",
+  "architecture": ["amd64"],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/doubtfulturnip/trufflehog-kasm:1.19.0",
+      "uncompressed_size_mb": 4800,
+      "available_tags": ["1.19.0"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "description": "BloodHound by SpecterOps is a powerful open‑source security tool designed to help security professionals (both offensive and defensive) analyze and visualize Active Directory (AD) environments.",
+  "docker_registry": "https://ghcr.io",
+  "image_src": "bloodhound.svg",
+  "run_config": {
+    "hostname": "kasm",
+    "privileged": true
+  },
+  "categories": ["Security"],
+  "friendly_name": "Bloodhound",
+  "architecture": ["amd64"],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "ghcr.io/doubtfulturnip/bloodhound-kasm:1.19.0",
+      "uncompressed_size_mb": 5500,
+      "available_tags": ["1.19.0"]
+    }
+  ]
+}
